@@ -1,0 +1,31 @@
+{
+  "name": "stripe-demo",
+  "version": "1.0.0",
+  "description": "Demo App For Stripe Payment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhruvik94/Stripe.git"
+  },
+  "keywords": [
+    "stripe",
+    "payment"
+  ],
+  "author": "Dhruvik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dhruvik94/Stripe/issues"
+  },
+  "homepage": "https://github.com/Dhruvik94/Stripe#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "stripe": "^8.161.0"
+  }
+}
